@@ -2,10 +2,10 @@ from typing import Union
 
 import requests
 
-from login import do_login
+from src.login import do_login
 from dateutil.parser import parse, parserinfo
 from datetime import datetime, timedelta
-from login_exception import LoginException
+from src.login_exception import LoginException
 from bs4 import BeautifulSoup, ResultSet
 import re
 

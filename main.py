@@ -1,6 +1,6 @@
-from orders import get_orders
-from branches import get_branches_and_accounts
-from login import do_login
+from src.orders import get_orders
+from src.branches import get_branches_and_accounts
+from src.login import do_login
 from timeit import timeit
 
 

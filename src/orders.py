@@ -183,6 +183,7 @@ def extract_orders(rows: ResultSet, account_id: str) -> list[dict[str, str]]:
     try:
         order_rows = []
         for row in rows:
+
             cols = row.findAll("td")
             order_row = extract_order_row(cols)
             order_rows.append(order_row)

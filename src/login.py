@@ -38,8 +38,8 @@ def do_login(cuit=None, password=None):
     data = {
         "loginFrm": "loginFrm",
         "loginFrm:docType": "CUIT",
-        "loginFrm:username": "30-51586616-3",  # TODO hardcoded cuit
-        "loginFrm:password": "lore2020",  # TODO hardcoded password
+        "loginFrm:username": "",  # TODO hardcoded cuit
+        "loginFrm:password": "",  # TODO hardcoded password
         "loginFrm:button:button": "Ingresar",
         "javax.faces.ViewState": jsf_view_state,
     }
